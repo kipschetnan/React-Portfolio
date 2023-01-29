@@ -1,0 +1,22 @@
+.header {
+    background: black;
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header div {
+    font-weight: bold;
+}
+
+.headName {
+    margin-top: 45px;
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.headNav {
+    margin-top: 60px;
+    font-size: 25px;
+}
