@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 import { useState } from 'react';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('Portfolio')
+  const [currentPage, setCurrentPage] = useState('Contact')
 
   const renderPage = () => {
     if (currentPage === 'Contact') {
@@ -29,7 +29,7 @@ function App() {
   return (
     <div style= {{
       backgroundColor: '#F0EdEE',
-      paddingBottom: '100%'
+      height: '100vh'
     }}>
       <div>
         <Header currentPage={currentPage} handlePageChange={handlePageChange} />
