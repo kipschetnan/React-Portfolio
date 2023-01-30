@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleUser } from '@fortawesome/free-solid-svg-icons'
 import React from "react";
+import '../../styles/AboutMe.css'
 
 function About() {
     return (
@@ -14,22 +15,10 @@ function About() {
             }}>
                 About Me
             </header>
-            <div style={{
-                color: '#0A090C',
-                fontSize: '70px',
-                marginLeft: '50px',
-            }}>
+            <div className='icon'>
                 <FontAwesomeIcon icon={faCircleUser} />
             </div>
-            <p style={{
-                color: '#0A090C',
-                marginLeft: '40px',
-                fontFamily: 'MyFont2',
-                fontWeight: 'bold',
-                marginTop: '25px',
-                fontSize: '15px',
-                marginRight: '40px'
-            }}>
+            <p className='p'>
                 This is placement text for now. This is placement text for now. 
                 This is placement text for now. This is placement text for now. 
                 This is placement text for now. This is placement text for now. 

@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-left: 70px;
+    margin-top: 25px;
+    margin-right: 200px;
+}
+  
+.grid-item {
+    width: 100%;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.grid-item .text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    display: none;
+}
+
+.grid-item:hover .text {
+    display: block;
+}
+  
