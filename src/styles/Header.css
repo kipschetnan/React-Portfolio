@@ -33,3 +33,36 @@
     font-family: 'MyFont2';
     src: url('./Ubuntu-Medium.ttf')
 }
+
+@media only screen and (max-width: 600px) {
+    .header {
+        display: block;
+        height: 150px;
+    }
+    .headName {
+        text-align: center;
+        margin-top: 0;
+    }
+    .headNav {
+        font-size: 20px;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .header {
+        display: block;
+        height: 150px;
+    }
+    .headName {
+        text-align: center;
+        margin-top: 0;
+    }
+    .headNav {
+        font-size: 20px;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+}
+
