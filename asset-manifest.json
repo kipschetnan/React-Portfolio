@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.6fc49a26.css",
+    "main.js": "/React-Portfolio/static/js/main.5e2e1553.js",
+    "static/media/subway.jpg": "/React-Portfolio/static/media/subway.7a94e47ec493302a8e59.jpg",
+    "static/media/city.jpg": "/React-Portfolio/static/media/city.8f9471111d366044e040.jpg",
+    "static/media/mountains.jpg": "/React-Portfolio/static/media/mountains.d0ca143efc64f9911398.jpg",
+    "static/media/road.jpg": "/React-Portfolio/static/media/road.92e9c24eb902872d15e7.jpg",
+    "static/media/Itim-Regular.ttf": "/React-Portfolio/static/media/Itim-Regular.38b1e6579a4ae98f4318.ttf",
+    "static/media/Ubuntu-Medium.ttf": "/React-Portfolio/static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
+    "index.html": "/React-Portfolio/index.html",
+    "main.6fc49a26.css.map": "/React-Portfolio/static/css/main.6fc49a26.css.map",
+    "main.5e2e1553.js.map": "/React-Portfolio/static/js/main.5e2e1553.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fc49a26.css",
+    "static/js/main.5e2e1553.js"
+  ]
+}
