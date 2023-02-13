@@ -2,17 +2,6 @@ import React from "react";
 import '../../styles/Resume.css'
 
 function Resume() {
-    const onButtonClick = () => {
-        fetch('Kip_Schetnan_Resume.pdf').then(response => {
-            response.blob().then(blob => {
-                const fileURL = window.URL.createObjectURL(blob);
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = 'Kip_Schetnan_Resume.pdf';
-                alink.click();
-            })
-        })
-    }
 
     return (
         <div>
@@ -26,7 +15,7 @@ function Resume() {
                 Resume
             </header>
             <p className='p'>
-                Download my <a href='' onClick={onButtonClick}>resume</a>
+                Download my <a href='https://docs.google.com/document/d/1F_FuOWeQD6PrfEnfdWs4sHyyEr1g6D9e2ahzutDStJ8/edit?usp=sharing'>resume</a>
             </p>
             <div>
                 <header style={{
