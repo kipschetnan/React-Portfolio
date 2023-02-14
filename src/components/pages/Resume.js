@@ -15,7 +15,7 @@ function Resume() {
                 Resume
             </header>
             <p className='p'>
-                Download my <a href='https://docs.google.com/document/d/1F_FuOWeQD6PrfEnfdWs4sHyyEr1g6D9e2ahzutDStJ8/edit?usp=sharing'>resume</a>
+                Take a look at my <a href='https://docs.google.com/document/d/1F_FuOWeQD6PrfEnfdWs4sHyyEr1g6D9e2ahzutDStJ8/edit?usp=sharing'>resume</a>
             </p>
             <div>
                 <header style={{
